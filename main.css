@@ -1,0 +1,502 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:
+    rgb(45, 62, 68);
+  }
+  
+
+  h1{
+    color: rgb(255, 255, 255);
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    font-size: 30px;
+  
+  }
+  
+  .titulos{
+    color: rgb(255, 255, 255);
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    font-size: 40px;
+  
+  }
+  
+  h2{
+    color: white;
+    font-size: 15px;
+    text-align: left;
+  
+  }
+  
+  
+  .h3 {
+    color: rgb(182, 53, 53);
+    text-align: center;
+    font-size: 30px;
+    margin-top: 0cm;
+  }
+
+
+  /* header */
+ 
+
+  .grid-container {
+    display: grid;
+    grid-template-areas: 
+      
+    'header header header' 
+    'main main main' 
+    'left middle right' 
+    'footer footer footer';
+
+    
+    grid-column-gap: 40px;
+    grid-row-gap: 20px;
+    
+    
+  } 
+  
+ .header {
+    grid-area: header;
+    background-color:rgb(45, 62, 68);
+    padding: 30px;
+    text-align: center;
+    font-size: 35px;
+  }
+  
+  .imglogo{
+     width: 100px;
+     height: 100px;
+    
+  }
+
+
+  .bordesredondeados {
+    border-radius: 50px;
+    height:auto;
+    text-align: center;
+    width:max-content;
+    margin: auto;
+    margin-top: 10px;
+
+}
+
+
+  /* menu */
+
+.navbar {
+
+  font-size: 20px;
+    
+}
+
+
+li {
+  display:inline-block;
+  width: 10%;
+  padding:5px 10px;
+  background-color: #aaa;
+  border:1px solid #000;
+  text-align:center;
+  color:rgb(0, 0, 0);
+
+  
+}
+
+
+li:hover{
+  background-color:#fff;
+  color: black;
+  }
+
+
+ul {    
+    list-style:none;
+    font-size: 15;
+    padding: 0cm;
+    margin-top: 5%;
+
+
+}
+
+a {
+  font-size: 14px;
+  text-align: center;
+
+  color: rgb(51, 33, 33);
+  background-color:aqua;
+  padding: 10px;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+    
+/* cajas */
+
+
+.contenedorcaja{
+  display: grid; 
+  padding: 10px;
+    max-height: 300px;
+    margin-bottom: 50px;
+    grid-template-columns: 33% 33% 33%;
+    grid-column-gap: 80px;
+    margin-left: 30px;
+   
+    
+    
+}
+
+.left {
+  
+  background-color: #aaa;
+  border-style: inset;
+  border-color: black
+}
+  
+  
+  .middle {
+    
+    background-color: #bbb;
+    border-style: inset;
+    border-color: black
+  }
+  
+ 
+  .right {
+    
+    background-color: #ccc; 
+    border-style: inset;
+    border-color: black
+}
+
+
+.imagencaja{
+    width: 170px;
+    max-height: 160px;
+    text-align: center;
+    display: block;
+    margin: auto;
+    border-radius: 50px;
+}
+
+
+p{
+    line-height: 2;
+    font-size: 20px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+  
+}
+
+
+.h2index {
+  color: white;
+  font-size: 40px;
+  text-align: center;
+
+}
+
+.tituloh3 {
+  color:rgba(196, 53, 35, 0.973);
+  text-align: center;
+  font-size: 30px;
+  margin-top: 0cm;
+
+}
+
+
+/* footer*/
+
+
+footer {
+  background-color: black;
+  height: auto;
+  width: 100vw;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  padding-top: 20px;
+  color: rgb(20, 87, 87);
+  
+  
+  }
+  
+  .footercontainer {
+   display:grid;
+   grid-template-columns: 33% 33% 33%;
+   justify-items: center;
+   align-content: center;
+   height: 100px;
+  }
+  
+
+  .divfooter{
+
+    height: 70px;
+   
+  }
+  
+  .derechosfooter {
+     
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      
+  }
+  
+  
+  .imgchica {
+    
+      width: 20px;
+      padding: 5px;
+     
+      
+  }
+  
+
+  .letrasfooter{
+      padding: 5px;
+      font-size: 14px;
+      text-align: center;
+      color: rgb(53, 39, 39);
+      text-transform: uppercase;
+      text-decoration:none;
+      font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  
+  }
+
+ 
+/* pagina conoceme*/
+
+
+.contenedordiv{
+
+margin-top: 5%;
+margin-bottom: 30%;
+
+}
+
+.fotoconoceme{
+
+
+float: left;
+width: 500px;
+height: 430px;
+padding-right: 5%;
+
+  
+}
+
+.textoconoceme{
+  
+ color: rgb(193, 205, 218);
+ font-size: 20px;
+ font-family: cursive;
+ line-height:200%;
+
+}
+
+
+/* pagina servicios*/
+
+
+.contenedorservicios {
+
+
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows:  minmax(100px, auto);
+  row-gap: 200px;
+  column-gap:  10px;
+  margin-top: 10%;
+  margin-bottom: 10%;
+  
+}
+
+.imagenservicios {
+
+
+width: 400px;
+height: 300px;
+margin-left: 40px;
+
+}
+
+
+.textoservicio {
+
+
+text-align: center;
+font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+line-height: 180%;
+font-size: 20px;
+color: rgb(193, 205, 218);
+
+}
+
+
+/* pagina testimonios*/
+
+.contenedortestimonios{
+
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows:  minmax(100px, auto);
+  gap: 1em;
+  margin-top: 5%;
+}
+
+
+.textoparrafo{
+
+  text-align: center;
+  font-size: 20px;
+  color: rgb(193, 205, 218);
+  
+}
+.imagentest{
+  width: 50px;
+  height: 50px;
+  margin-top: 1%;
+  
+}
+
+.gridtextoparrafo2 {
+  display: grid;
+  grid-template-rows: 50px 50px 50px 50px;
+
+}
+
+
+
+ /* pagina contacto*/
+
+
+ .titulos{
+
+  margin-bottom: 5%;
+}
+
+.formulario-contacto-nombre{
+
+  font-size: 15px;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: rgb(141, 228, 141);
+}
+
+.formulario-contacto {
+
+  font-size: 15px;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: rgb(141, 228, 141);
+  
+}
+
+.enviar{
+
+  margin-bottom: 20px;
+}
+
+
+
+  
+/*media index*/
+
+
+  @media  (min-width: 0px) and (max-width: 767px) {
+
+    .contenedorcaja{
+      display: grid; 
+      grid-template-columns: auto auto auto;
+      margin-left: 100px;
+        
+        
+    }
+    
+   
+    footer {
+      background-color: black;
+      height: auto;
+      width: 1300px;
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      padding-top: 20px;
+      color: rgb(20, 87, 87);
+      
+      
+      }
+      
+      .footercontainer {
+       display: inline-block;
+       height: 100px;
+      
+      }
+
+      .derechosfooter {
+     
+        display: inline-block;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        
+    }
+      
+     /*media conoceme*/
+
+     .contenedordiv{
+
+      margin-top: 5%;
+      margin-bottom: 30%;
+      display: inline-block;
+      
+      }
+        
+        .textoconoceme{
+         font-size: 30px;
+        text-align: center;
+         
+        }
+        
+        li {
+        
+          width: 30%;
+        }
+
+ /*media testimonios*/
+
+ .contenedortestimonios{
+
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows:  minmax(100px, auto);
+  
+}
+
+/*media servicios*/
+
+.contenedorservicios {
+
+
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: minmax(100px, auto);
+  row-gap: 50px;
+  row-gap: 20px;
+  
+}
+
+
+.textoservicio {
+  margin-bottom: 20%;
+}
+
+}
+
+
+
+
